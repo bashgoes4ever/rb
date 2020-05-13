@@ -1,0 +1,130 @@
+@media only screen and (max-width: 1400px) {
+    .register-popup {
+        width: 310px;
+    }
+
+    .register-popup__title {
+        height: 30px;
+    }
+
+    .register-popup__title .title {
+        line-height: 30px;
+        padding-left: 12px;
+        font-size: 14px;
+    }
+
+    .register-popup__title .close {
+        width: 24px;
+        height: 24px;
+        right: 7px;
+    }
+
+    .register-popup__body {
+        padding: 16px 12px;
+    }
+
+    .register-popup__step-title {
+        padding-bottom: 3px;
+        font-size: 11px;
+        border-bottom-width: 1px;
+        margin-bottom: 10px;
+    }
+
+    .register-popup__form .input-wrap, .birthday-wrap, .gender-wrap {
+        margin-bottom: 8px;
+    }
+
+    .register-popup__form label {
+        font-size: 10px;
+        margin-bottom: 3px;
+    }
+
+    .register-popup__form .input-wrap input:not(.v-select-inp) {
+        height: 31px;
+        font-size: 10px;
+    }
+
+    .v-select.v-select {
+        height: 31px;
+        padding-left: 10px;
+    }
+
+    .v-select.v-select .v-select-btn-dd {
+        height: 30px;
+        width: 24px;
+    }
+
+    .birthday-flex .v-select:nth-child(1), .birthday-flex .v-select:nth-child(3) {
+        width: 73px;
+    }
+
+    .birthday-flex .v-select:nth-child(2) {
+        width: 105px;
+    }
+
+    .v-select .v-select-inp {
+        font-size: 10px;
+    }
+
+    .gender-wrap .radio-wrap label {
+        width: 134px;
+        height: 31px;
+        font-size: 10px;
+        line-height: 31px;
+    }
+
+    .register-popup__form .next-btn {
+        margin-top: 18px;
+        width: 134px;
+        height: 31px;
+        font-size: 11px;
+    }
+
+    .register-popup__footer {
+        margin-top: 20px;
+    }
+
+    .register-popup__footer .title {
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    .register-popup__footer button {
+        width: 134px;
+        height: 31px;
+        font-size: 11px;
+    }
+
+    .mobile-flex .v-select {
+        width: 100px;
+    }
+
+    .register-popup__form .mobile-flex.mobile-flex input {
+        width: 170px;
+    }
+
+    .register-popup__form .deposit-flex.deposit-flex input {
+        width: 140px;
+    }
+
+    .deposit-flex .v-select {
+        width: 140px;
+    }
+
+    .checkbox-wrap {
+        margin-bottom: 6px;
+        padding-left: 25px;
+        padding-top: 3px;
+    }
+
+    .checkbox-wrap label {
+        padding-right: 40px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .checkbox-wrap input {
+        width: 15px;
+        height: 15px;
+    }
+}

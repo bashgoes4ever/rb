@@ -1,5 +1,5 @@
 <template>
-    <div class="register-layer">
+    <div @click.self="setRegisterPopup({'open': false})" class="register-layer">
         <div class="register-popup">
             <div class="register-popup__title">
                 <div class="title">Registration</div>

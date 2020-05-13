@@ -29,5 +29,7 @@
 
 <style>
     @import './styles/main.css';
+    @import './styles/register.css';
     @import './styles/media.css';
+    @import './styles/register-media.css';
 </style>
